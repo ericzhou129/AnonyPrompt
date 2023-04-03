@@ -1,4 +1,4 @@
-# AnonyPrompt
+# GPT Anonymizer
 
 ## What this is
 
