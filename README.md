@@ -70,6 +70,8 @@ That's it! You're ready to use AnonyPrompt to protect sensitive information whil
 ## How to install this Chrome Extension
 Here's a step-by-step guide on how to add custom Chrome extensions to Chrome:
 
+0. Download the extension from GitHub as a Zip file
+
 1. Open Google Chrome: Launch the Google Chrome browser on your computer.
 
 2. Access the Extensions Menu: Click on the three vertical dots in the top-right corner of the Chrome window to open the menu. From the menu, click on "More tools" and then select "Extensions."
