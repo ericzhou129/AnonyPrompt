@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "AnonyPrompt",
+  "version": "1.0",
+  "description": "Anonymize sensitive information for ChatGPT interactions.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+"permissions": [
+  "activeTab",
+  "storage",
+  "scripting",
+  "tabs",
+  "clipboardWrite",
+  "notifications",
+  "contextMenus"
+],
+
+  "content_scripts": [
+    {
+      "matches": ["https://app.openai.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}

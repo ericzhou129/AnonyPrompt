@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT Find and Replace</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body class="bg-purple">
+  <div class="container">
+    <!-- Add "Clear Everything" button to top right corner -->
+    <button id="clearBtn" class="btn btn-secondary rounded me-2">Clear Everything</button>
+    <!-- Section for replacing sensitive words with placeholders -->
+    <textarea id="inputText" class="form-control rounded" placeholder="Paste your original text here..."></textarea>
+    <div id="wordReplacementContainer"></div>
+    <button id="addWordBtn" class="btn btn-primary rounded">Add Word</button>
+    <button id="replaceBtn" class="btn btn-primary rounded">Replace Words</button>
+    <textarea id="outputText" class="form-control rounded" placeholder="The altered text will appear here..." readonly></textarea>
+    <button id="copyAndInsertBtn" class="btn btn-primary rounded mb-2">Copy and Insert</button>
+
+    <!-- New section for reverting placeholders -->
+    <textarea id="responseText" class="form-control rounded" placeholder="Paste ChatGPT response with placeholders here..."></textarea>
+    <button id="revertBtn" class="btn btn-primary rounded">Revert Placeholders</button>
+    <textarea id="revertedText" class="form-control rounded" placeholder="The reverted text will appear here..." readonly></textarea>
+    <button id="copyRevertedBtn" class="btn btn-primary rounded">Copy Reverted Text</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

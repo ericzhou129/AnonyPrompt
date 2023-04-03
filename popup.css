@@ -1,0 +1,28 @@
+body {
+  width: 400px;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 5px 0;
+}
+
+button {
+  margin: 5px 0;
+}
+
+
+/* Custom CSS for the popup */
+.bg-purple {
+  background-color: #D6BEEC; /* Pastel deep purple */
+}
+
+/* Add spacing between buttons and textareas */
+.btn,
+.form-control {
+  margin-bottom: 10px;
+}
+
+
