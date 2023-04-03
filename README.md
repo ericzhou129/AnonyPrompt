@@ -29,7 +29,7 @@ No Data Collection: We respect your privacy - the extension performs all actions
 Download now and start protecting your privacy today! 💬🛡️
 
 
-## AnonyPrompt: User Guide
+## How to use this
 ### Step 1: Install AnonyPrompt
 
     Visit the Google Chrome Web Store and search for "AnonyPrompt."
@@ -80,4 +80,4 @@ Here's a step-by-step guide on how to add custom Chrome extensions to Chrome:
 
 6. Install and Verify: The custom Chrome extension will now be installed in your Chrome browser. You should see it listed in the Extensions menu, along with any other installed extensions. You can enable or disable the extension using the toggle switch next to its name.
 
-## How to use this 
+
